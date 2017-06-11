@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+
 from keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers.core import Dense, Activation
