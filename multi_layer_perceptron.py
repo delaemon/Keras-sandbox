@@ -7,7 +7,6 @@ from keras.layers.core import Dense, Activation
 from keras.utils import np_utils
 import matplotlib.pyplot as plt
 
-#ValueError: Error when checking target: expected activation_2 to have shape (None, 10) but got array with shape (60000, 1)
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 x_train = x_train.reshape(60000, 784) / 255
